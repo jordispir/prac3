@@ -1,0 +1,4 @@
+GEI100;demostracio;Introducción a la Programación;juanperez;2023-04-12;Sí;3;150.00
+BIO101;demostracio;Biotecnología para principiantes;laura.garcia;2023-02-25;No;5;200.00
+GEE102;xerrada;Ética en la Inteligencia Artificial;maria.lopez;2023-05-18;40;8,9,10,7
+DEI103;xerrada;Nuevas Tendencias en Energía Renovable;carlos.mendez;2022-11-20;60;6,8,7,9,10

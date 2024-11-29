@@ -1,0 +1,6 @@
+1. Mostrar les dades de la llista d’associacions.
+2. Mostrar les dades de la llista de membres que formen part d’una associació, afegint filtre per
+a professors, alumnes o ambdós.
+3. Mostrar les dades de la llista de membres actius, que formen part de qualsevol associació,
+afegint filtre per a professors, alumnes o ambdós.
+4. Mostrar les dades de la llista d’accions, afegint filtre o no per tipus d’acció.
