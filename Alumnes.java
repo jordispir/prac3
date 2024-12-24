@@ -1,4 +1,4 @@
-public class Alumnes extends membre {
+public class Alumnes extends Membre {
     private String ensenyament; 
     private int anysETSE;
     private boolean esGraduat;

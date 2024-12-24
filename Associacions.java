@@ -24,27 +24,27 @@ public class Associacions {
     }
 
     public void assignarPresident(Membre membre) {
-        if (membre.esAlumne()) {
+        if (membre.esActiu()) {
             this.president = membre;
-            System.out.println("President assignat: " + membre.getAlias());
+            System.out.println("President assignat: " + membre.getAlies());
         } else {
             System.out.println("Només un alumne pot ser president.");
         }
     }
 
     public void assignarSecretari(Membre membre) {
-        if (membre.esAlumne()) {
+        if (membre.esActiu()) {
             this.secretari = membre;
-            System.out.println("Secretari assignat: " + membre.getAlias());
+            System.out.println("Secretari assignat: " + membre.getAlies());
         } else {
             System.out.println("Només un alumne pot ser secretari.");
         }
     }
 
     public void assignarTresorer(Membre membre) {
-        if (membre.esAlumne()) {
+        if (membre.esActiu()) {
             this.tresorer = membre;
-            System.out.println("Tresorer assignat: " + membre.getAlias());
+            System.out.println("Tresorer assignat: " + membre.getAlies());
         } else {
             System.out.println("Només un alumne pot ser tresorer.");
         }
@@ -83,9 +83,9 @@ public class Associacions {
     public String toString() {
     return "Associació: " + nom + "\n" +
            "Correu: " + correu + "\n" +
-           "President: " + president.getAlias() + "\n" +
-           "Secretari: " + secretari.getAlias() + "\n" +
-           "Tresorer: " + tresorer.getAlias() + "\n";
+           "President: " + president.getAlies() + "\n" +
+           "Secretari: " + secretari.getAlies() + "\n" +
+           "Tresorer: " + tresorer.getAlies() + "\n";
 }
 
 }
