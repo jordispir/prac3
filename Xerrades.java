@@ -20,7 +20,7 @@ public class Xerrades extends Accions {
         if (membresImpartidors.length < 3) {
             membresImpartidors[numImpartidors] = impartidor;
             numImpartidors++;
-            System.out.println("Impartidor afegit: " + impartidor.getAlias());
+            System.out.println("Impartidor afegit: " + impartidor.getAlies());
         } else {
             System.out.println("No es poden afegir més impartidors. Màxim 3.");
         }
