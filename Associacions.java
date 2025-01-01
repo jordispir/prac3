@@ -20,7 +20,7 @@ public class Associacions {
         this.nom = nom;
         this.correu = correu;
         this.titulacions = titulacions;
-        this.membres = new LlistaMembres(); // Crear una nueva lista de miembros
+        this.membres = new LlistaMembres(); // Crear una nueva lista de miembros // DIEGO: HAY QUE MIRAR PORQUE DA ESTE ERROR
     }
 
     public void assignarPresident(Membre membre) {
