@@ -1,5 +1,5 @@
 package Classes;
-// FET PER :DIEGO MARQUEZ I CLARA PUIG
+// FET PER :CLARA PUIG
 
 public class LlistaMembres {
     private Membre[] membres;

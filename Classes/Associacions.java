@@ -1,5 +1,5 @@
 package Classes;
-
+// FET PER :CLARA PUIG
 public class Associacions {
     private String nom;
     private String correu; 

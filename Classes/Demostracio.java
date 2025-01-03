@@ -1,5 +1,5 @@
 package Classes;
-// FET PER :DIEGO MARQUEZ I CLARA PUIG
+// FET PER :CLARA PUIG
 
 public class Demostracio extends Accions {
     private String dataDisseny; // Data en què es va dissenyar

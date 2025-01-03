@@ -1,5 +1,5 @@
 package Classes;
-// FET PER :DIEGO MARQUEZ I CLARA PUIG
+// FET PER :DIEGO MARQUEZ 
 
 public class Professor extends Membre {
     private String departament; // DEIM o DEEEA

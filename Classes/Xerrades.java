@@ -1,5 +1,5 @@
 package Classes;
-
+// FET PER :CLARA PUIG
 public class Xerrades extends Accions {
     private String dataXerrada;
     private LlistaMembres membresImpartidors; // Màxim 3 membres

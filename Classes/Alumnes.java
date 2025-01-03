@@ -1,4 +1,5 @@
 package Classes;
+// FET PER :DIEGO MARQUEZ 
 public class Alumnes extends Membre {
     private String ensenyament; 
     private int anysETSE;

@@ -1,4 +1,5 @@
 package Classes;
+// FET PER :CLARA PUIG
 public abstract class Accions {
     private String codi;
     private String titol;

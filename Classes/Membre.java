@@ -1,4 +1,5 @@
 package Classes;
+// FET PER :DIEGO MARQUEZ 
 public abstract class Membre {
     private String alies;
     private String emailInstitucional;
