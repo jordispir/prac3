@@ -1,3 +1,4 @@
+package Classes;
 public abstract class Membre {
     private String alies;
     private String emailInstitucional;

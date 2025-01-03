@@ -1,3 +1,4 @@
+package Classes;
 public abstract class Accions {
     private String codi;
     private String titol;

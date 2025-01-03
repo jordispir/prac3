@@ -1,4 +1,4 @@
-import java.security.DrbgParameters.Capability;
+package Classes;
 // FET PER :DIEGO MARQUEZ I CLARA PUIG
 
 public class Demostracio extends Accions {

@@ -1,8 +1,4 @@
-import java.io.BufferedReader;
-import java.io.File; // Import the File class 
-import java.io.FileReader;
-import java.io.IOException; // Import the IOException class
-import java.util.Scanner;
+package Classes;
 
 public class Associacions {
     private String nom;

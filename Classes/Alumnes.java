@@ -1,3 +1,4 @@
+package Classes;
 public class Alumnes extends Membre {
     private String ensenyament; 
     private int anysETSE;

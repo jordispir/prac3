@@ -1,3 +1,4 @@
+package Classes;
 // FET PER :DIEGO MARQUEZ 
 
 public class LlistaAccions {

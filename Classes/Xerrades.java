@@ -1,3 +1,5 @@
+package Classes;
+
 public class Xerrades extends Accions {
     private String dataXerrada;
     private LlistaMembres membresImpartidors; // Màxim 3 membres
