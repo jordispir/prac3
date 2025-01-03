@@ -1,3 +1,6 @@
+// FET PER :DIEGO MARQUEZ I CLARA PUIG
+
+
 public class Professor extends Membre {
     private String departament; // DEIM o DEEEA
     private int numeroDespatx;

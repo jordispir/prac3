@@ -1,3 +1,6 @@
+import java.security.DrbgParameters.Capability;
+// FET PER :DIEGO MARQUEZ I CLARA PUIG
+
 public class Demostracio extends Accions {
     private String dataDisseny; // Data en què es va dissenyar
     private boolean esValida; // Si encara és vàlida
@@ -5,8 +8,8 @@ public class Demostracio extends Accions {
     private double costMaterials; // Cost de crear els materials
 
     // Constructor
-    public Demostracio(String nomAssociacio, String titol, Membre responsable, String dataDisseny, boolean esValida, double costMaterials) {
-        super(nomAssociacio, titol, responsable);
+    public Demostracio(String nomAssociacio, String titol, Membre responsable, String dataDisseny, boolean esValida, double costMaterials, int capacitat) {
+        super(nomAssociacio, titol, responsable, capacitat);
         this.dataDisseny = dataDisseny;
         this.esValida = esValida;
         this.comptadorOfertes = 0; // Inicialment no s'ha ofert

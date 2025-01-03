@@ -4,26 +4,27 @@ public class Xerrades extends Accions {
     private int assistents;
     private int valoracions; // Valoracions de l'assistent (escala [0-10])
 
-    private static int numImpartidors = 0;
+    //private static int numImpartidors = 0;
 
     // Constructor
-    public Xerrades(String nomAssociacio, String titol, Membre responsable, String dataXerrada) {
-        super(nomAssociacio, titol, responsable); // Cridem al constructor de la classe pare
+    public Xerrades(String nomAssociacio, String titol, Membre responsable, String dataXerrada, int capacitat) {
+        super(nomAssociacio, titol, responsable, capacitat); // Cridem al constructor de la classe pare
         this.dataXerrada = dataXerrada;
-        this.membresImpartidors = new LlistaMembres();
+        this.membresImpartidors = new LlistaMembres(3);
         this.assistents = 0;
         this.valoracions = 0;
     }
 
     // Afegeix un membre com a impartidor (només fins a 3 membres)
     public void afegirImpartidor(Membre impartidor) {
-        if (membresImpartidors.length < 3) {
-            membresImpartidors[numImpartidors] = impartidor;
+       /*  if (membresImpartidors.getNumMembres() < 3) {
+            membresImpartidors.afegirMembre(impartidor);
             numImpartidors++;
             System.out.println("Impartidor afegit: " + impartidor.getAlies());
         } else {
             System.out.println("No es poden afegir més impartidors. Màxim 3.");
-        }
+        }*/
+        membresImpartidors.afegirMembre(impartidor);
     }
 
     // Afegeix assistents a la xerrada

@@ -7,11 +7,11 @@ public abstract class Accions {
     private static int contadorAccions = 0;
 
     // Constructor
-    public Accions(String nomAssociacio, String titol, Membre responsable) {
+    public Accions(String nomAssociacio, String titol, Membre responsable, int capacitat) {
         this.codi = CrearCodi(nomAssociacio);
         this.titol = titol;
         this.responsable = responsable;
-        this.associacions = new LlistaAssociacions();
+        this.associacions = new LlistaAssociacions(capacitat);
     }
 
    public static String CrearCodi(String nomAssociacio) {
@@ -48,6 +48,6 @@ public abstract class Accions {
 
     // ToString
     public String toString() {
-        return "Acció: " + titol + " [codi: " + codi + ", responsable: " + responsable.getAlias() + "]";
+        return "Acció: " + titol + " [codi: " + codi + ", responsable: " + responsable.getAlies() + "]";
     }
 }

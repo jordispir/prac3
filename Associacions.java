@@ -16,11 +16,11 @@ public class Associacions {
     private Membre tresorer;
 
     // Constructor
-    public Associacions(String nom, String correu, String[] titulacions) {
+    public Associacions(String nom, String correu, String[] titulacions, int capacitat) {
         this.nom = nom;
         this.correu = correu;
         this.titulacions = titulacions;
-        this.membres = new LlistaMembres(); // Crear una nueva lista de miembros // DIEGO: HAY QUE MIRAR PORQUE DA ESTE ERROR
+        this.membres = new LlistaMembres(capacitat); // Crear una nueva lista de miembros 
     }
 
     public void assignarPresident(Membre membre) {

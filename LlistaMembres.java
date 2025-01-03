@@ -1,3 +1,6 @@
+// FET PER :DIEGO MARQUEZ I CLARA PUIG
+
+
 public class LlistaMembres {
     private Membre[] membres;
     private int numMembres;
